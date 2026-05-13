@@ -1,0 +1,116 @@
+# Git ignore patterns for the project
+
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/.Python
+backend/env/
+backend/.env
+backend/.env.local
+backend/.env.*.local
+backend/instance/
+backend/*.egg-info/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log
+frontend/yarn-error.log
+frontend/.cache/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.iml
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.temp
+~*
+.#*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.dumps
+
+# Environment
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+coverage.xml
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.cache
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# (Package manager lock files like package-lock.json should generally NOT be ignored in applications)
+# IDE specific
+.vscode/settings.json
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Miscellaneous
+.tmp
+*.pid
+*.seed
+*.pid.lock
